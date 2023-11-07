@@ -165,7 +165,7 @@ void toggle(int x, int y) {
     render();
 }
 
-void handleInput() { // change to step and do the sequence with doubl buffering and clean up code
+void handleInput() {
     previousKey = getch();
     switch (previousKey) {
     case UP:
